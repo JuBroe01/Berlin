@@ -100,7 +100,7 @@ function populateJokes() {
             <button onclick="revealPunchline('joke5')">Make me laugh</button>
             <p id="joke5" style="display:none;">Lyme disease.</p>
         </div>
-        <button onclick="finalUnlockMessage()">Unlock the Secret!</button>
+        <button onclick="finalUnlockMessage()">Unlock the Agenda!</button>
     `;
 }
 
@@ -108,8 +108,7 @@ function finalUnlockMessage() {
     jokesSection.style.display = 'none';
     finalUnlock.style.display = 'block';
     finalUnlock.innerHTML = `
-        Congratulations! You've braved the challenges and emerged victorious. 
-        As promised, here's the key to our weekend adventures.<br><br>
+        Well done! You've navigated through our little prelude. Now, unlock the agenda to our weekend's escapades. Let the fun (debauchery) begin!<br><br>
         <button onclick="viewPDF()">View PDF</button>
         <a href="Berlin Summer 23.pdf" download>Click here to download the PDF</a>
     `;
