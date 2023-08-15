@@ -1,0 +1,84 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* This will center the container vertically if there's space */
+}
+
+h2, button {
+    text-align: center;  /* Only center align the headings and buttons */
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 2rem;
+}
+
+.intro, .quiz-section, .final-unlock {
+    display: none;
+    margin-bottom: 20px;
+}
+
+button {
+    display: block;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px auto;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.joke-section {
+    border: 1px solid #eee;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.joke-section p {
+    margin-top: 0;
+}
+
+#joke1, #joke2, #joke3, #joke4, #joke5 {
+    display: none;
+    color: #aaa;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Mobile Responsive: Full-width container and larger fonts for small devices */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+
+
+
