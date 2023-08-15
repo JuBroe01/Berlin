@@ -34,7 +34,7 @@ function populatePartyTrickQuestions() {
         <p>What are the content’s of a typical “Besteck”?</p>
         <input type="radio" name="party1" value="a"> a) 3 beer<br>
         <input type="radio" name="party1" value="b"> b) 1 champagne, one Vodaka and one sprite<br>
-        <input type="radio" name="party1" value="c"> c) Negroni, 2 small beer<br>
+        <input type="radio" name="party1" value="c"> c) Negroni, 3 small beer<br>
         <input type="radio" name="party1" value="d"> d) Water, Tequilla Shots<br>
         <button onclick="checkPartyTrickAnswers()">Next</button>
     `;
